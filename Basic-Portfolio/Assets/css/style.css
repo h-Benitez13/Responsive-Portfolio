@@ -150,7 +150,110 @@ footer{
 }
 
 @media screen and (max-width: 968px){
-    
+    .topnav{
+        position: static;
+        /* width: 640px; */
+
+    }
+
+    .topnav a.active{
+        position: static;
+        width: 200px;
+        text-align: center;
+        padding: 22px 10px 22px 10px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 5%;
+
+    }
+
+    .topnav-right{
+        float:right;
+    }
+    .wrapper{
+        /* position:static; */
+        width: 65%;
+        /* margin: auto; */
+        margin-top: 40px;
+        margin-right: 40%;
+        margin-bottom: 40%;
+        margin-left: 5%;
+        clear: both;
+        position: relative;
+        background-color: #ffffff;
+        border-color: #dddddd;
+        align-content: center;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: left;
+        position: relative;
+        color: #4aaaa5;
+        font-family: 'Georgia', 'Times New Roman', Times, serif;   
+        margin-left: 30px;
+    }
+
+    hr {
+        opacity: 0.7;
+        width: 900px;
+    }
+
+    img {
+        width: 270px;
+        height: 270px;
+        overflow: hidden;
+        margin-top: 3px;
+        margin-right: 20px;
+        margin-bottom: 3px;
+        margin-left: 15px;
+    }
+
+    h2{
+        margin-left: 15px;
+        width: 250px;
+        opacity: 0.9;
+        position: relative;
+        bottom: 100px;
+        text-align: center;
+        color: #ffffff;
+        padding: 10px;
+        background: #4aaaa5
+        
+    }
+
+    input,
+    textarea{
+        width: 95%;
+    }
+
+    #textarea{
+        width: 95%;
+    }
+
+    button {
+        background: #4aaaa5;
+        border: 0 none;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 30px;
+        cursor: pointer;
+        margin-left: 6%;
+    }
+
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        clear: both;
+        Border-top: 8px solid #4aaaa5;
+        background-color: #666666;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        color: #fff;
+    }
 }
 
 @media screen and (max-width: 768px){
