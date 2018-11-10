@@ -149,7 +149,7 @@ footer{
     color: #fff;
 }
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 980px){
     .topnav{
         position: static;
         /* width: 640px; */
@@ -173,10 +173,9 @@ footer{
     .wrapper{
         /* position:static; */
         width: 65%;
-        /* margin: auto; */
         margin-top: 40px;
         margin-right: 40%;
-        margin-bottom: 40%;
+        margin-bottom: 60%;
         margin-left: 5%;
         clear: both;
         position: relative;
